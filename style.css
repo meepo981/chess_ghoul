@@ -107,6 +107,41 @@ main {
     padding: 0 24px;
 }
 
+.board_chess {
+    width: 640px;
+    height: 640px;
+    border: 20px solid #c5cfd1;
+    box-sizing: content-box;
+}
+
+.square {
+    float: left;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.black
+{
+    background-color: #000000;
+}
+
+.white
+{
+    background-color: #fff;
+}
+
+.figure
+{
+    color: #000000;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+
+
 .content {
     position: relative;
     display: grid;
